@@ -9,13 +9,15 @@
 void print_diagonal(int n)
 {
 	if (n <= 0)
+	{
 		_putchar('\n');
+	}
 	else
 	{
 		int i;
 		int k;
 
-		for (i = 0 ; i <= n ; i++)
+		for (i = 0 ; i < n ; i++)
 		{
 			for (k = 0 ; k <= i ;k++)
 			{
